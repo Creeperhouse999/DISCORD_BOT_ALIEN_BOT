@@ -1,0 +1,69 @@
+2025-09-27 17:10:23,630 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:10:23,695 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:10:23,695 - discord.client - INFO - logging in using static token
+2025-09-27 17:10:23,994 - discord.http - WARNING - We are being rate limited. GET https://discord.com/api/v10/users/@me responded with 429. Retrying in 3.00 seconds.
+2025-09-27 17:10:29,170 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7eb4acbbab9ada72279d2df9f2735c76).
+2025-09-27 17:10:31,179 - AlienBot - INFO - ==================================================
+2025-09-27 17:10:31,183 - AlienBot - INFO - ==================================================
+2025-09-27 17:10:31,186 - AlienBot - INFO - Starting to load cogs...
+2025-09-27 17:10:31,197 - AlienBot - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:10:31,198 - AlienBot - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:10:31,398 - AlienBot - INFO - ==================================================
+2025-09-27 17:11:13,958 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:11:13,959 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:11:13,959 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:11:13,960 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:11:13,960 - discord.client - INFO - logging in using static token
+2025-09-27 17:11:14,971 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2aed3a73c7f1173947c4d896cd02f134).
+2025-09-27 17:11:16,990 - AlienBot - INFO - ==================================================
+2025-09-27 17:11:16,990 - AlienBot - INFO - 🤖 ALIEN BOT STARTING UP 🤖
+2025-09-27 17:11:16,990 - AlienBot - INFO - ==================================================
+2025-09-27 17:11:16,990 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:11:16,991 - AlienBot.Console - INFO - ALIEN BOT STARTING UP
+2025-09-27 17:11:16,991 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:11:16,991 - AlienBot - INFO - 🤖 Starting to load cogs...
+2025-09-27 17:11:16,991 - AlienBot.Console - INFO - Starting to load cogs...
+2025-09-27 17:11:16,992 - AlienBot - INFO - ✅ Successfully loaded cog: jokes
+2025-09-27 17:11:16,993 - AlienBot.Console - INFO - Successfully loaded cog: jokes
+2025-09-27 17:11:16,993 - AlienBot - INFO - ✅ Successfully loaded cog: new_posts
+2025-09-27 17:11:16,994 - AlienBot.Console - INFO - Successfully loaded cog: new_posts
+2025-09-27 17:11:16,994 - AlienBot - INFO - 🎯 Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:11:16,994 - AlienBot.Console - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:11:16,994 - AlienBot - INFO - 📦 Loaded cogs: jokes, new_posts
+2025-09-27 17:11:16,994 - AlienBot.Console - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:11:17,159 - discord.http - WARNING - We are being rate limited. PUT https://discord.com/api/v10/applications/1421500672301600809/commands responded with 429. Retrying in 3.00 seconds.
+2025-09-27 17:11:58,976 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:11:58,977 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:22:29,921 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:22:29,921 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:22:29,921 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:22:29,922 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:22:29,923 - discord.client - INFO - logging in using static token
+2025-09-27 17:22:31,092 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:22:31,092 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:23:33,424 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:23:33,424 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:23:33,425 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:23:33,425 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:23:33,425 - discord.client - INFO - logging in using static token
+2025-09-27 17:23:33,919 - discord.http - WARNING - We are being rate limited. GET https://discord.com/api/v10/oauth2/applications/@me responded with 429. Retrying in 3.00 seconds.
+2025-09-27 17:23:35,052 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:23:35,052 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:25:16,216 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:25:16,216 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-09-27 17:25:16,216 - discord.client - DEBUG - on_command has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_guild_join has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_guild_remove has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_disconnect has successfully been registered as an event
+2025-09-27 17:25:16,217 - discord.client - DEBUG - on_resumed has successfully been registered as an event
+2025-09-27 17:25:16,217 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:25:16,217 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:25:16,217 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-27 17:25:16,218 - discord.client - INFO - logging in using static token
+2025-09-27 17:25:21,657 - AlienBot - WARNING - ⚠️ Bot disconnected from Discord
+2025-09-27 17:25:21,658 - AlienBot - ERROR - 💥 Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:25:21,658 - AlienBot.Console - ERROR - Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:25:21,659 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:25:21,659 - AlienBot.Console - INFO - Bot shutdown complete

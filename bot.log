@@ -1,0 +1,216 @@
+2025-09-27 17:13:46,313 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:13:46,314 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:13:46,314 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:13:46,315 - discord.client - INFO - logging in using static token
+2025-09-27 17:13:47,798 - AlienBot - WARNING - ⚠️ Bot disconnected from Discord
+2025-09-27 17:13:47,800 - AlienBot - ERROR - 💥 Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:13:47,802 - AlienBot.Console - ERROR - Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:13:47,802 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:13:47,803 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:17:17,084 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:17:17,085 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:17:17,085 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:17:17,086 - discord.client - INFO - logging in using static token
+2025-09-27 17:17:18,199 - AlienBot - WARNING - ⚠️ Bot disconnected from Discord
+2025-09-27 17:17:18,200 - AlienBot - ERROR - 💥 Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:17:18,200 - AlienBot.Console - ERROR - Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:17:18,200 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:17:18,200 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:17:27,982 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:17:27,982 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:17:27,982 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:17:27,983 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:17:27,983 - discord.client - INFO - logging in using static token
+2025-09-27 17:17:29,535 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9861e0825a36358257aa54b78f37943d).
+2025-09-27 17:17:31,546 - AlienBot - INFO - ==================================================
+2025-09-27 17:17:31,546 - AlienBot - INFO - 🤖 ALIEN BOT STARTING UP 🤖
+2025-09-27 17:17:31,546 - AlienBot - INFO - ==================================================
+2025-09-27 17:17:31,546 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:17:31,547 - AlienBot.Console - INFO - ALIEN BOT STARTING UP
+2025-09-27 17:17:31,547 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:17:31,547 - AlienBot - INFO - 🤖 Starting to load cogs...
+2025-09-27 17:17:31,547 - AlienBot.Console - INFO - Starting to load cogs...
+2025-09-27 17:17:31,550 - AlienBot - INFO - ✅ Successfully loaded cog: jokes
+2025-09-27 17:17:31,550 - AlienBot.Console - INFO - Successfully loaded cog: jokes
+2025-09-27 17:17:31,552 - AlienBot - INFO - ✅ Successfully loaded cog: new_posts
+2025-09-27 17:17:31,552 - AlienBot.Console - INFO - Successfully loaded cog: new_posts
+2025-09-27 17:17:31,552 - AlienBot - INFO - 🎯 Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:17:31,552 - AlienBot.Console - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:17:31,552 - AlienBot - INFO - 📦 Loaded cogs: jokes, new_posts
+2025-09-27 17:17:31,552 - AlienBot.Console - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:17:31,742 - AlienBot - INFO - ✅ Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:17:31,742 - AlienBot - INFO - 📊 Bot ID: 1421500672301600809
+2025-09-27 17:17:31,743 - AlienBot - INFO - 🏠 Connected to 1 guild(s)
+2025-09-27 17:17:31,743 - AlienBot.Console - INFO - Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:17:31,743 - AlienBot.Console - INFO - Bot ID: 1421500672301600809
+2025-09-27 17:17:31,744 - AlienBot.Console - INFO - Connected to 1 guild(s)
+2025-09-27 17:17:31,744 - AlienBot - INFO - 🏰 Guild names: Mr. Alien
+2025-09-27 17:17:31,744 - AlienBot.Console - INFO - Guild names: Mr. Alien
+2025-09-27 17:17:31,745 - AlienBot - INFO - 🚀 Bot is now online and ready to receive commands!
+2025-09-27 17:17:31,745 - AlienBot - INFO - ==================================================
+2025-09-27 17:17:31,745 - AlienBot.Console - INFO - Bot is now online and ready to receive commands!
+2025-09-27 17:17:31,745 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:18:17,485 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in DM
+2025-09-27 17:18:17,486 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in DM
+2025-09-27 17:18:30,676 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in DM
+2025-09-27 17:18:30,678 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in DM
+2025-09-27 17:18:33,594 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in DM
+2025-09-27 17:18:33,595 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in DM
+2025-09-27 17:18:43,737 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in DM
+2025-09-27 17:18:43,738 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in DM
+2025-09-27 17:19:43,424 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:19:43,425 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:22:37,983 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:22:37,983 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:22:37,983 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:22:37,984 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:22:37,984 - discord.client - INFO - logging in using static token
+2025-09-27 17:22:39,022 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f412b1d74996ee0251979a5e2b2473d6).
+2025-09-27 17:22:41,038 - AlienBot - INFO - ==================================================
+2025-09-27 17:22:41,039 - AlienBot - INFO - 🤖 ALIEN BOT STARTING UP 🤖
+2025-09-27 17:22:41,039 - AlienBot - INFO - ==================================================
+2025-09-27 17:22:41,039 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:22:41,039 - AlienBot.Console - INFO - ALIEN BOT STARTING UP
+2025-09-27 17:22:41,039 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:22:41,039 - AlienBot - INFO - 🤖 Starting to load cogs...
+2025-09-27 17:22:41,039 - AlienBot.Console - INFO - Starting to load cogs...
+2025-09-27 17:22:41,041 - AlienBot - INFO - ✅ Successfully loaded cog: jokes
+2025-09-27 17:22:41,041 - AlienBot.Console - INFO - Successfully loaded cog: jokes
+2025-09-27 17:22:41,042 - AlienBot - INFO - ✅ Successfully loaded cog: new_posts
+2025-09-27 17:22:41,042 - AlienBot.Console - INFO - Successfully loaded cog: new_posts
+2025-09-27 17:22:41,042 - AlienBot - INFO - 🎯 Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:22:41,042 - AlienBot.Console - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:22:41,042 - AlienBot - INFO - 📦 Loaded cogs: jokes, new_posts
+2025-09-27 17:22:41,042 - AlienBot.Console - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:22:41,636 - AlienBot - INFO - ✅ Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:22:41,636 - AlienBot - INFO - 📊 Bot ID: 1421500672301600809
+2025-09-27 17:22:41,636 - AlienBot - INFO - 🏠 Connected to 1 guild(s)
+2025-09-27 17:22:41,636 - AlienBot.Console - INFO - Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:22:41,636 - AlienBot.Console - INFO - Bot ID: 1421500672301600809
+2025-09-27 17:22:41,636 - AlienBot.Console - INFO - Connected to 1 guild(s)
+2025-09-27 17:22:41,637 - AlienBot - INFO - 🔧 Bot prefix: @AlienBot mention
+2025-09-27 17:22:41,637 - AlienBot.Console - INFO - Bot prefix: @AlienBot mention
+2025-09-27 17:22:41,637 - AlienBot - INFO - 🌐 Bot configured to respond in all channels
+2025-09-27 17:22:41,637 - AlienBot.Console - INFO - Bot configured to respond in all channels
+2025-09-27 17:22:41,637 - AlienBot - INFO - 🏰 Guild names: Mr. Alien
+2025-09-27 17:22:41,637 - AlienBot.Console - INFO - Guild names: Mr. Alien
+2025-09-27 17:22:41,637 - AlienBot - INFO - 🚀 Bot is now online and ready to receive commands!
+2025-09-27 17:22:41,637 - AlienBot - INFO - ==================================================
+2025-09-27 17:22:41,637 - AlienBot.Console - INFO - Bot is now online and ready to receive commands!
+2025-09-27 17:22:41,637 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:23:48,279 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:23:48,280 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:23:48,280 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:23:48,280 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-09-27 17:23:48,281 - discord.client - INFO - logging in using static token
+2025-09-27 17:23:49,832 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e89b5edbdf79d0c1252c42a6862029b2).
+2025-09-27 17:23:51,837 - AlienBot - INFO - ==================================================
+2025-09-27 17:23:51,837 - AlienBot - INFO - 🤖 ALIEN BOT STARTING UP 🤖
+2025-09-27 17:23:51,837 - AlienBot - INFO - ==================================================
+2025-09-27 17:23:51,838 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:23:51,838 - AlienBot.Console - INFO - ALIEN BOT STARTING UP
+2025-09-27 17:23:51,838 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:23:51,838 - AlienBot - INFO - 🤖 Starting to load cogs...
+2025-09-27 17:23:51,839 - AlienBot.Console - INFO - Starting to load cogs...
+2025-09-27 17:23:51,840 - AlienBot - INFO - ✅ Successfully loaded cog: jokes
+2025-09-27 17:23:51,840 - AlienBot.Console - INFO - Successfully loaded cog: jokes
+2025-09-27 17:23:51,841 - AlienBot - INFO - ✅ Successfully loaded cog: new_posts
+2025-09-27 17:23:51,841 - AlienBot.Console - INFO - Successfully loaded cog: new_posts
+2025-09-27 17:23:51,841 - AlienBot - INFO - 🎯 Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:23:51,841 - AlienBot.Console - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:23:51,842 - AlienBot - INFO - 📦 Loaded cogs: jokes, new_posts
+2025-09-27 17:23:51,842 - AlienBot.Console - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:23:52,537 - AlienBot - INFO - ✅ Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:23:52,537 - AlienBot - INFO - 📊 Bot ID: 1421500672301600809
+2025-09-27 17:23:52,537 - AlienBot - INFO - 🏠 Connected to 1 guild(s)
+2025-09-27 17:23:52,538 - AlienBot.Console - INFO - Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:23:52,538 - AlienBot.Console - INFO - Bot ID: 1421500672301600809
+2025-09-27 17:23:52,538 - AlienBot.Console - INFO - Connected to 1 guild(s)
+2025-09-27 17:23:52,538 - AlienBot - INFO - 🔧 Bot prefix: ! (or @AlienBot mention)
+2025-09-27 17:23:52,538 - AlienBot.Console - INFO - Bot prefix: ! (or @AlienBot mention)
+2025-09-27 17:23:52,538 - AlienBot - INFO - 🎯 Bot configured to respond only in channel ID: 1420804534426406914
+2025-09-27 17:23:52,538 - AlienBot.Console - INFO - Bot configured to respond only in channel ID: 1420804534426406914
+2025-09-27 17:23:52,539 - AlienBot - INFO - 🏰 Guild names: Mr. Alien
+2025-09-27 17:23:52,539 - AlienBot.Console - INFO - Guild names: Mr. Alien
+2025-09-27 17:23:52,539 - AlienBot - INFO - 🚀 Bot is now online and ready to receive commands!
+2025-09-27 17:23:52,539 - AlienBot - INFO - ==================================================
+2025-09-27 17:23:52,539 - AlienBot.Console - INFO - Bot is now online and ready to receive commands!
+2025-09-27 17:23:52,539 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:23:52,899 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in DM
+2025-09-27 17:23:52,900 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in DM
+2025-09-27 17:26:25,254 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:26:25,254 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-09-27 17:26:25,254 - discord.client - DEBUG - on_command has successfully been registered as an event
+2025-09-27 17:26:25,254 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-09-27 17:26:25,255 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-09-27 17:26:25,255 - discord.client - DEBUG - on_guild_join has successfully been registered as an event
+2025-09-27 17:26:25,255 - discord.client - DEBUG - on_guild_remove has successfully been registered as an event
+2025-09-27 17:26:25,255 - discord.client - DEBUG - on_disconnect has successfully been registered as an event
+2025-09-27 17:26:25,255 - discord.client - DEBUG - on_resumed has successfully been registered as an event
+2025-09-27 17:26:25,255 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:26:25,255 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:26:25,255 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-27 17:26:25,256 - discord.client - INFO - logging in using static token
+2025-09-27 17:26:25,465 - discord.http - WARNING - We are being rate limited. GET https://discord.com/api/v10/users/@me responded with 429. Retrying in 3.00 seconds.
+2025-09-27 17:26:34,471 - AlienBot - WARNING - ⚠️ Bot disconnected from Discord
+2025-09-27 17:26:34,474 - AlienBot - ERROR - 💥 Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:26:34,475 - AlienBot.Console - ERROR - Fatal error: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-09-27 17:26:34,475 - AlienBot - INFO - 🛑 Bot shutdown complete
+2025-09-27 17:26:34,475 - AlienBot.Console - INFO - Bot shutdown complete
+2025-09-27 17:29:39,973 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-27 17:29:39,974 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-09-27 17:29:39,974 - discord.client - DEBUG - on_command has successfully been registered as an event
+2025-09-27 17:29:39,974 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-09-27 17:29:39,974 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-09-27 17:29:39,975 - discord.client - DEBUG - on_guild_join has successfully been registered as an event
+2025-09-27 17:29:39,975 - discord.client - DEBUG - on_guild_remove has successfully been registered as an event
+2025-09-27 17:29:39,975 - discord.client - DEBUG - on_disconnect has successfully been registered as an event
+2025-09-27 17:29:39,975 - discord.client - DEBUG - on_resumed has successfully been registered as an event
+2025-09-27 17:29:39,975 - AlienBot - INFO - 🚀 Starting AlienBot...
+2025-09-27 17:29:39,975 - AlienBot.Console - INFO - Starting AlienBot...
+2025-09-27 17:29:39,975 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-27 17:29:39,986 - discord.client - INFO - logging in using static token
+2025-09-27 17:29:41,638 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d8169abd4d0dd67e069fa0472ee5ea0a).
+2025-09-27 17:29:43,687 - AlienBot - INFO - ==================================================
+2025-09-27 17:29:43,688 - AlienBot - INFO - 🤖 ALIEN BOT STARTING UP 🤖
+2025-09-27 17:29:43,688 - AlienBot - INFO - ==================================================
+2025-09-27 17:29:43,688 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:29:43,688 - AlienBot.Console - INFO - ALIEN BOT STARTING UP
+2025-09-27 17:29:43,688 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:29:43,689 - AlienBot - INFO - 🤖 Starting to load cogs...
+2025-09-27 17:29:43,689 - AlienBot.Console - INFO - Starting to load cogs...
+2025-09-27 17:29:43,690 - AlienBot - INFO - ✅ Successfully loaded cog: jokes
+2025-09-27 17:29:43,690 - AlienBot.Console - INFO - Successfully loaded cog: jokes
+2025-09-27 17:29:43,691 - AlienBot - INFO - ✅ Successfully loaded cog: new_posts
+2025-09-27 17:29:43,691 - AlienBot.Console - INFO - Successfully loaded cog: new_posts
+2025-09-27 17:29:43,691 - AlienBot - INFO - 🎯 Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:29:43,691 - AlienBot.Console - INFO - Cog loading complete. Loaded: 2, Failed: 0
+2025-09-27 17:29:43,692 - AlienBot - INFO - 📦 Loaded cogs: jokes, new_posts
+2025-09-27 17:29:43,692 - AlienBot.Console - INFO - Loaded cogs: jokes, new_posts
+2025-09-27 17:29:43,899 - AlienBot - INFO - ✅ Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:29:43,900 - AlienBot - INFO - 📊 Bot ID: 1421500672301600809
+2025-09-27 17:29:43,900 - AlienBot - INFO - 🏠 Connected to 1 guild(s)
+2025-09-27 17:29:43,900 - AlienBot.Console - INFO - Bot is ready! Logged in as AlienBot#1902
+2025-09-27 17:29:43,900 - AlienBot.Console - INFO - Bot ID: 1421500672301600809
+2025-09-27 17:29:43,900 - AlienBot.Console - INFO - Connected to 1 guild(s)
+2025-09-27 17:29:43,901 - AlienBot - INFO - 🔧 Bot prefix: ! (or @AlienBot mention)
+2025-09-27 17:29:43,901 - AlienBot.Console - INFO - Bot prefix: ! (or @AlienBot mention)
+2025-09-27 17:29:43,901 - AlienBot - INFO - 🎯 Bot configured to respond only in channel ID: 1420804534426406914
+2025-09-27 17:29:43,901 - AlienBot.Console - INFO - Bot configured to respond only in channel ID: 1420804534426406914
+2025-09-27 17:29:43,901 - AlienBot - INFO - 🏰 Guild names: Mr. Alien
+2025-09-27 17:29:43,901 - AlienBot.Console - INFO - Guild names: Mr. Alien
+2025-09-27 17:29:43,901 - AlienBot - INFO - 🚀 Bot is now online and ready to receive commands!
+2025-09-27 17:29:43,901 - AlienBot - INFO - ==================================================
+2025-09-27 17:29:43,901 - AlienBot.Console - INFO - Bot is now online and ready to receive commands!
+2025-09-27 17:29:43,902 - AlienBot.Console - INFO - ==================================================
+2025-09-27 17:29:48,031 - AlienBot - DEBUG - 💬 Message: creeperhouse999_00283 in Mr. Alien: !joke...
+2025-09-27 17:29:48,031 - AlienBot - DEBUG - 🔍 Processing message in guild: Mr. Alien, channel: general (ID: 1420804534426406914)
+2025-09-27 17:29:48,031 - AlienBot - DEBUG - ✅ Channel general is allowed - processing command
+2025-09-27 17:29:48,032 - AlienBot.jokes - INFO - Joke command used by creeperhouse999_00283 in Mr. Alien
+2025-09-27 17:29:48,032 - AlienBot.jokes - DEBUG - Selected joke: Why don't scientists trust atoms? Because they make up everything!
+2025-09-27 17:29:48,033 - AlienBot - INFO - 📝 Command used: joke by creeperhouse999_00283 in Mr. Alien
+2025-09-27 17:29:48,307 - AlienBot - DEBUG - 🔍 Processing message in guild: Mr. Alien, channel: general (ID: 1420804534426406914)
+2025-09-27 17:29:48,308 - AlienBot - DEBUG - ✅ Channel general is allowed - processing command
+2025-09-27 17:29:52,059 - AlienBot - DEBUG - 💬 Message: creeperhouse999_00283 in Mr. Alien: yezzzzzzzzzzzzzzzz...
+2025-09-27 17:29:52,059 - AlienBot - DEBUG - 🔍 Processing message in guild: Mr. Alien, channel: general (ID: 1420804534426406914)
+2025-09-27 17:29:52,059 - AlienBot - DEBUG - ✅ Channel general is allowed - processing command
