@@ -4,6 +4,7 @@ import os
 import logging
 from datetime import datetime
 from dotenv import load_dotenv
+from api.health import start_health_api, update_bot_status
 
 # Configure logging
 logging.basicConfig(
@@ -39,6 +40,10 @@ def get_prefix(bot, message):
     return commands.when_mentioned_or("!")(bot, message)
 
 bot = commands.Bot(command_prefix=get_prefix, intents=intents)
+
+# Global counters for health API
+commands_processed = 0
+errors_count = 0
 
 def should_respond_in_channel(channel):
     """Check if bot should respond in this channel"""
@@ -129,6 +134,17 @@ async def on_ready():
             logger.info(f"🏰 Guild names: {', '.join(guild_names)}")
             console_logger.info(f"Guild names: {', '.join(guild_names)}")
         
+        # Start health API
+        start_health_api()
+        
+        # Update bot status
+        update_bot_status(
+            is_running=True,
+            guilds_count=len(bot.guilds),
+            commands_processed=commands_processed,
+            errors_count=errors_count
+        )
+        
         logger.info("🚀 Bot is now online and ready to receive commands!")
         logger.info("=" * 50)
         console_logger.info("Bot is now online and ready to receive commands!")
@@ -137,16 +153,39 @@ async def on_ready():
     except Exception as e:
         logger.error(f"❌ Error during bot startup: {e}")
         console_logger.error(f"Error during bot startup: {e}")
+        errors_count += 1
 
 @bot.event
 async def on_command(ctx):
     """Log when a command is used"""
+    global commands_processed
+    commands_processed += 1
+    
     logger.info(f"📝 Command used: {ctx.command.name} by {ctx.author} in {ctx.guild.name if ctx.guild else 'DM'}")
+    
+    # Update health API with new command count
+    update_bot_status(
+        is_running=True,
+        guilds_count=len(bot.guilds),
+        commands_processed=commands_processed,
+        errors_count=errors_count
+    )
 
 @bot.event
 async def on_command_error(ctx, error):
     """Log command errors"""
+    global errors_count
+    errors_count += 1
+    
     logger.error(f"❌ Command error: {ctx.command.name} by {ctx.author} - {error}")
+    
+    # Update health API with new error count
+    update_bot_status(
+        is_running=True,
+        guilds_count=len(bot.guilds),
+        commands_processed=commands_processed,
+        errors_count=errors_count
+    )
 
 @bot.event
 async def on_message(message):
@@ -173,21 +212,48 @@ async def on_message(message):
 async def on_guild_join(guild):
     """Log when bot joins a new guild"""
     logger.info(f"🎉 Joined new guild: {guild.name} (ID: {guild.id}) with {guild.member_count} members")
+    
+    # Update health API with new guild count
+    update_bot_status(
+        is_running=True,
+        guilds_count=len(bot.guilds),
+        commands_processed=commands_processed,
+        errors_count=errors_count
+    )
 
 @bot.event
 async def on_guild_remove(guild):
     """Log when bot leaves a guild"""
     logger.info(f"👋 Left guild: {guild.name} (ID: {guild.id})")
+    
+    # Update health API with new guild count
+    update_bot_status(
+        is_running=True,
+        guilds_count=len(bot.guilds),
+        commands_processed=commands_processed,
+        errors_count=errors_count
+    )
 
 @bot.event
 async def on_disconnect():
     """Log when bot disconnects"""
     logger.warning("⚠️ Bot disconnected from Discord")
+    
+    # Update health API - bot is not running
+    update_bot_status(is_running=False)
 
 @bot.event
 async def on_resumed():
     """Log when bot reconnects"""
     logger.info("🔄 Bot reconnected to Discord")
+    
+    # Update health API - bot is running again
+    update_bot_status(
+        is_running=True,
+        guilds_count=len(bot.guilds),
+        commands_processed=commands_processed,
+        errors_count=errors_count
+    )
 
 if __name__ == "__main__":
     logger.info("🚀 Starting AlienBot...")
@@ -197,6 +263,9 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"💥 Fatal error: {e}")
         console_logger.error(f"Fatal error: {e}")
+        errors_count += 1
     finally:
+        # Update health API - bot is shutting down
+        update_bot_status(is_running=False)
         logger.info("🛑 Bot shutdown complete")
         console_logger.info("Bot shutdown complete")
