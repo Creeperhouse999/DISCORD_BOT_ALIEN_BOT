@@ -48,6 +48,3 @@ class NewPosts(commands.Cog):
         """Get the latest news (placeholder command)"""
         logger.info(f"News command used by {ctx.author} in {ctx.guild.name if ctx.guild else 'DM'}")
         await ctx.send("📰 **News Command**\nThis is a placeholder for news functionality. You can integrate with news APIs like NewsAPI here!")
-
-async def setup(bot):
-    await bot.add_cog(NewPosts(bot))

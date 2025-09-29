@@ -23,6 +23,3 @@ class Jokes(commands.Cog):
         joke = random.choice(jokes)
         logger.debug(f"Selected joke: {joke}")
         await ctx.send(joke)
-
-async def setup(bot):
-    await bot.add_cog(Jokes(bot))
