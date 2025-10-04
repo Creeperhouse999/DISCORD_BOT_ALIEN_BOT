@@ -1,12 +1,14 @@
 from flask import Flask
+from flask_cors import CORS
 import threading
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/health', methods=['GET'])
+@app.route('/health', methods=['GET','POST'])
 def health_check():
     """Simple health check endpoint - returns 200 OK"""
-    return '', 200
+    return 'hello i am working', 200
 
 @app.route('/', methods=['GET'])
 def root():
