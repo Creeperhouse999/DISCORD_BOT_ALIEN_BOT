@@ -28,6 +28,7 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 PREFIX = os.getenv("INTERACT")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
+POST_CHANNEL_ID = os.getenv("POST_CHANNEL_ID")
 
 intents = discord.Intents.default()
 # Enable these privileged intents - REQUIRED for bot to work in channels
@@ -43,15 +44,28 @@ bot = commands.Bot(command_prefix=get_prefix, intents=intents)
 
 def should_respond_in_channel(channel):
     """Check if bot should respond in this channel"""
+    # Allow responses in the main bot channel
     if not CHANNEL_ID or CHANNEL_ID.strip() == "":
         return True  # No channel restriction, respond everywhere
     
     try:
         target_channel_id = int(CHANNEL_ID)
-        return channel.id == target_channel_id
+        if channel.id == target_channel_id:
+            return True
     except (ValueError, TypeError):
         logger.warning(f"Invalid CHANNEL_ID format: {CHANNEL_ID}")
         return True  # If invalid, respond everywhere
+    
+    # Allow responses in forum post channels (for monitoring)
+    if POST_CHANNEL_ID:
+        try:
+            post_channel_id = int(POST_CHANNEL_ID)
+            if channel.id == post_channel_id:
+                return True
+        except (ValueError, TypeError):
+            pass
+    
+    return False  # Don't respond in other channels
 
 async def load_cogs():
     """Load all cogs from the cogs directory"""
@@ -116,14 +130,23 @@ async def on_ready():
         if CHANNEL_ID and CHANNEL_ID.strip():
             try:
                 target_channel_id = int(CHANNEL_ID)
-                logger.info(f"🎯 Bot configured to respond only in channel ID: {target_channel_id}")
-                console_logger.info(f"Bot configured to respond only in channel ID: {target_channel_id}")
+                logger.info(f"🎯 Bot configured to respond in channel ID: {target_channel_id}")
+                console_logger.info(f"Bot configured to respond in channel ID: {target_channel_id}")
             except (ValueError, TypeError):
                 logger.warning(f"⚠️ Invalid CHANNEL_ID format: {CHANNEL_ID}")
                 console_logger.warning(f"Invalid CHANNEL_ID format: {CHANNEL_ID}")
         else:
             logger.info("🌐 Bot configured to respond in all channels")
             console_logger.info("Bot configured to respond in all channels")
+        
+        if POST_CHANNEL_ID and POST_CHANNEL_ID.strip():
+            try:
+                post_channel_id = int(POST_CHANNEL_ID)
+                logger.info(f"📋 Bot monitoring forum posts in channel ID: {post_channel_id}")
+                console_logger.info(f"Bot monitoring forum posts in channel ID: {post_channel_id}")
+            except (ValueError, TypeError):
+                logger.warning(f"⚠️ Invalid POST_CHANNEL_ID format: {POST_CHANNEL_ID}")
+                console_logger.warning(f"Invalid POST_CHANNEL_ID format: {POST_CHANNEL_ID}")
         
         if bot.guilds:
             guild_names = [guild.name for guild in bot.guilds]
